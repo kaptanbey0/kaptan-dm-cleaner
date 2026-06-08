@@ -1,97 +1,144 @@
-# Kaptan Discord DM Cleaner ⚓
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=250&section=header&text=Kaptan%20DM%20Cleaner&fontSize=60&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=V5.1.0%20ULTIMATE%20EDITION&descAlignY=55&descAlign=50" />
 
-<p align="center">
-  <img src="assets/banner.png" width="900" alt="Kaptan Discord DM Cleaner">
-</p>
+  <a href="https://github.com/kaptanbey0">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Erasing+your+digital+footprints...;100%25+Local.+100%25+Secure.;Ghost+Mode+Activated+🥷;Powered+by+Kaptanbey01+👑" alt="Typing SVG" />
+  </a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-v5.1.0-00d4ff" alt="Version">
-  <img src="https://img.shields.io/badge/status-Stable-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License">
-  <img src="https://img.shields.io/badge/platform-Chrome%20Extension-orange" alt="Platform">
-</p>
+  <br>
 
-[TR] Kaptan Discord DM Cleaner, Discord üzerindeki kendi DM geçmişinizi, sunucu kanalı mesajlarınızı ve hatta gizli/kapatılmış sohbetlerinizi güvenli, hızlı ve gelişmiş filtrelerle temizlemenizi sağlayan premium temalı bir Chrome eklentisidir.
+  <img src="https://img.shields.io/badge/Architecture-Manifest_V3-success?style=for-the-badge&logo=googlechrome">
+  <img src="https://img.shields.io/badge/Privacy-100%25_Strict_Local-red?style=for-the-badge&logo=adguard">
+  <img src="https://img.shields.io/badge/Developer-Kaptanbey01-black?style=for-the-badge&logo=discord">
 
-[EN] Kaptan Discord DM Cleaner is a premium-themed Chrome extension that allows you to clean your direct message history, server channel messages, and hidden/closed DM conversations on Discord securely and fast, using advanced filters.
+  <br><br>
 
----
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Sürüm Notu / Release Notes (v5.1.0 Stable Release) ⚓
+  <br><br>
 
-[TR] **Durum: Kararlı Sürüm / Yayınlandı (Stable & Released)**
-- **Gelişmiş Filtreler & AI Desteği:** Resim, video, GIF, link, dosya tipi, karakter uzunluğu filtreleri ve AI filtreleme asistanı.
-- **Gizli DM Bulucu:** Sohbet listesinden gizlenmiş veya kapatılmış DM kutularını bulma, geri getirme ve yönetme.
-- **Toplu DM Temizleme (Multi-DM):** Birden fazla DM kutusunu aynı anda temizleyebilme, duraklatma ve kaldığı yerden devam edebilme.
-- **Hayalet Modu (Ghost Mode):** Güvenlik için insan taklidi yapan dinamik gecikme süreleri (1.2s - 2.5s jitter).
-- **Raporlama & Yedekleme:** Silinmeden önce sohbet geçmişini yedekleme ve sonrasında HTML/Markdown rapor indirme.
-- **Storage Katmanı:** Güvenli storage wrapper, workspace migration ve bozuk localStorage kurtarma mekanizması tamamlandı.
-- **Matrix Paskalya Yumurtası:** Konami kodu ile Matrix yağmuru efekti.
-- **Test Suite:** Tarayıcı ortamında koşan 7 test suite ve 30 test case'in tamamı başarıyla geçmektedir.
-
-[EN] **Status: Stable Release & Published**
-- **Advanced Filters & AI Support:** Filter by images, videos, GIFs, links, document types, character length, or use the natural language AI filtering assistant.
-- **Hidden DM Finder:** Scan, recover, and manage closed or hidden DM channels directly from your dashboard.
-- **Bulk DM Deletion (Multi-DM):** Clear multiple conversations sequentially, pause/resume, and recover from failures with storage-persisted session states.
-- **Stealth/Ghost Mode:** Human-like jitter delays (1.2s - 2.5s) to protect account safety during automated actions.
-- **Report & Backup:** Backup chat history as a text file before clearing, and generate polished HTML/Markdown activity reports.
-- **Storage Layer:** Robust storage wrapper, automatic schema migration, and localStorage corruption recovery.
-- **Matrix Easter Egg:** Konami code triggered cyberpunk Matrix digital rain effect.
-- **Test Suite:** Thoroughly validated with a browser-based test harness featuring 7 test suites and 30 active cases passing successfully.
+  <h3>🌍 DİL SEÇİMİ / CHOOSE LANGUAGE 🌍</h3>
+  <a href="#tr-version"><img src="https://img.shields.io/badge/🇹🇷_TÜRKÇE_SÜRÜM_İÇİN_TIKLA-E4252B?style=for-the-badge&logo=googletranslate&logoColor=white"></a>
+  <a href="#en-version"><img src="https://img.shields.io/badge/🇬🇧_CLICK_FOR_ENGLISH-012169?style=for-the-badge&logo=googletranslate&logoColor=white"></a>
+  
+  <br><br>
+</div>
 
 ---
 
-## Özellikler / Features 🚀
+<a name="tr-version"></a>
+# 🇹🇷 TÜRKÇE SÜRÜM (TR)
 
-- **Gelişmiş Filtreler (Advanced Filters):** Sadece resimler, videolar, GIF'ler, bağlantılar (linkler), belirli kelimeler veya karakter uzunluğuna göre mesaj silme.
-- **Gizli DM Bulucu (Hidden DM Finder):** Kapatılmış veya gizlenmiş sohbet kutularını listeleme ve yönetme.
-- **Toplu DM Temizleme (Clear All DMs):** Birden fazla DM kutusunu sırayla otomatik temizleme ve yarıda kalırsa kaldığı yerden devam edebilme altyapısı (oturum kaydetme).
-- **Hayalet Modu (Stealth/Ghost Mode):** Hesap güvenliğini korumaya yönelik, insan taklidi yapan dinamik gecikme süreleri (1.2s - 2.5s jitter).
-- **Yerel İstatistik ve Analiz (Local Analytics):** Konuşmadaki kelime bulutu, en çok yazışan kullanıcılar ve yıllara göre mesaj grafiklerini içeren detaylı canlı panel.
-- **Aktivite Raporu (Activity Report):** Silinen mesaj istatistiklerini ve tahmini veri hacmini içeren indirilebilir şık HTML/Markdown raporları.
-- **Matrix Paskalya Yumurtası (Easter Egg):** `↑ ↑ ↓ ↓ ← → ← → B A` Konami kodunu girerek aktifleştirilebilen Matrix yağmuru efekti.
+<div align="center">
+  <h2>⚓ Kaptan Discord DM Cleaner v5.1.0</h2>
+  <p><b>✨ Discord mesaj yönetimini sıradan bir işlem olmaktan çıkarıp profesyonel bir sanata dönüştüren nihai eklenti. ✨</b></p>
+</div>
 
----
+## 🌐 Desteklenen Tarayıcılar
 
-## Kurulum / Installation 📦
-
-### [TR] Adım Adım Kurulum
-1. Bu depoyu ZIP olarak indirin ve bir klasöre çıkartın.
-2. Google Chrome (veya Brave, Edge, Opera) tarayıcınızı açın.
-3. Adres çubuğuna `chrome://extensions/` yazın ve gidin.
-4. Sağ üst köşede yer alan **"Gelişmiş Mod"** (Developer Mode) seçeneğini aktif hale getirin.
-5. Sol üstte çıkan **"Paketlenmiş eklenti yükle"** (Load Unpacked) butonuna tıklayın.
-6. Depodan çıkarttığınız klasörü seçin.
-7. Discord sekmesini yenilediğinizde sağ üst köşede Kaptan paneli açılacaktır!
-
-### [EN] Step by Step Installation
-1. Download this repository as a ZIP and extract it to a folder.
-2. Open your Google Chrome (or Brave, Edge, Opera) browser.
-3. Navigate to `chrome://extensions/` in the address bar.
-4. Enable **"Developer Mode"** in the top right corner.
-5. Click **"Load unpacked"** in the top left corner.
-6. Select the folder where you extracted this repository.
-7. Refresh your Discord tab, and the Kaptan control panel will appear in the top right corner!
+| Tarayıcı | Platform | Destek Durumu |
+| :--- | :---: | :--- |
+| **Google Chrome** | PC | 🟢 Tam Uyumlu |
+| **Brave Browser** | PC | 🟢 Tam Uyumlu |
+| **Microsoft Edge** | PC | 🟢 Tam Uyumlu |
+| **Opera / Opera GX** | PC | 🟢 Tam Uyumlu |
+| **Quetta Browser** | Android (Mobil) | 🟢 Tam Uyumlu |
+| **Quetta Browser** | iOS (Apple) | 🟡 Test Edilmedi *(Çalışma ihtimali yüksek)* |
 
 ---
 
-## Yasal Uyarı / Legal Disclaimer ⚠️
+## 💻 Bilgisayar (PC) İçin Kurulum Rehberi
 
-- **TR:** Bu araç bağımsız bir yardımcı yazılımdır ve Discord Inc. ile resmi bir ortaklığı, yetkilendirmesi veya sponsorluk ilişkisi bulunmamaktadır. Eklentinin kullanımından doğabilecek tüm sorumluluk (hesap kısıtlamaları vb.) kullanıcıya aittir.
-- **EN:** This tool is an independent helper application and does not have any official affiliation, authorization, or partnership with Discord Inc. The user bears all responsibility for any consequences (including account restrictions) that may arise from using this extension.
-
----
-
-## Gizlilik Politikası / Privacy First 🔒
-
-- **TR:** Kaptan Discord DM Cleaner, tüm işlemleri yerel olarak kullanıcının tarayıcısında gerçekleştirir. Hiçbir kişisel veri, kimlik doğrulama bilgisi veya mesaj içeriği harici sunuculara gönderilmez.
-- **EN:** Kaptan Discord DM Cleaner performs all operations locally inside the user's browser. No personal data, authentication credentials, or message contents are transmitted to external servers.
+1. Sağ taraftaki **Releases** bölümünden (veya doğrudan [buradan](https://github.com/kaptanbey0/kaptan-dm-cleaner/releases)) eklentinin paketlenmiş **`.crx`** dosyasını bilgisayarınıza indirin.
+2. Tarayıcınızda adres çubuğuna şunu yazın: `chrome://extensions` *(Edge için `edge://extensions`)*
+3. Sağ üst köşeden **Geliştirici Modu (Developer Mode)** seçeneğini aktif edin.
+4. İndirdiğiniz **`.crx`** dosyasını fareyle tutup eklentiler sayfasının tam ortasına **sürükleyip bırakın**.
+5. Gelen uyarıya "Ekle" deyin. Eklenti kuruldu, keyfini çıkarın! 💥
 
 ---
 
-## Lisans / License 📄
+## 📱 Telefon (Android & iOS) İçin Kurulum Rehberi
 
-- **TR:** Bu proje ticari olmayan bireysel kullanım lisansına (EULA) tabidir. Kaynak kodlarının kopyalanması, değiştirilmesi, dağıtılması ve tersine mühendislik yapılması yasaktır. Detaylar için [LICENSE](LICENSE) dosyasına göz atabilirsiniz.
-- **EN:** This project is licensed under a proprietary End User License Agreement (EULA). Copying, modifying, redistributing, or reverse engineering the software is strictly prohibited. See the [LICENSE](LICENSE) file for more details.
-"# kaptan-dm-cleaner" 
-"# kaptan-dm-cleaner" 
+*Telefondan kurulum için **[Quetta Browser](https://www.quetta.net/)** kullanılmalıdır (Apple iOS sürümü mevcuttur ancak henüz tarafımızca test edilmemiştir).*
+
+1. Cihazınıza **[Quetta Browser](https://www.quetta.net/)**'ı indirin ve kurun.
+2. Bu GitHub sayfasından en güncel **`.zip`** veya **`.crx`** dosyasını telefonunuza indirin. <br>⚠️ **DİKKAT:** İndirdiğiniz bu dosyayı kesinlikle klasöre **çıkartmayın/ayıklamayın!** Olduğu gibi kalsın.
+3. Quetta tarayıcısını açın.
+4. Menüden **3 Nokta (⋮)** > **Yapboz Simgesi 🧩 (Eklentiler)** > **Uzantıları Yönet** (Manage Extensions) yolunu izleyin.
+5. Sayfadaki **Geliştirici Seçenekleri**'ni (Developer Options) aktif hale getirin.
+6. **"+ From .zip / .crx"** yazan butona tıklayın.
+7. Telefonunuza indirdiğiniz o paketi seçin. Eklenti saniyeler içinde tarayıcınıza kurulacak! 🥷
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  <br><br><br>
+</div>
+
+<a name="en-version"></a>
+# 🇬🇧 ENGLISH VERSION (EN)
+
+<div align="center">
+  <h2>⚓ Kaptan Discord DM Cleaner v5.1.0</h2>
+  <p><b>✨ The ultimate extension designed to make Discord message management faster, cleaner, and more professional. ✨</b></p>
+</div>
+
+## 🌐 Supported Browsers
+
+| Browser | Platform | Support Status |
+| :--- | :---: | :--- |
+| **Google Chrome** | PC | 🟢 Fully Supported |
+| **Brave Browser** | PC | 🟢 Fully Supported |
+| **Microsoft Edge** | PC | 🟢 Fully Supported |
+| **Opera / Opera GX** | PC | 🟢 Fully Supported |
+| **Quetta Browser** | Android (Mobile)| 🟢 Fully Supported |
+| **Quetta Browser** | iOS (Apple) | 🟡 Untested *(High chance of working)* |
+
+---
+
+## 💻 PC Installation Guide
+
+1. Download the packaged **`.crx`** file from the **Releases** section on the right (or [click here](https://github.com/kaptanbey0/kaptan-dm-cleaner/releases)).
+2. Open this address in your browser: `chrome://extensions` *(or `edge://extensions` for Edge)*
+3. Enable **Developer Mode** located at the top right corner.
+4. **Drag and drop** the downloaded **`.crx`** file directly into the middle of the extensions page.
+5. Click "Add extension" on the prompt. You are ready to go! 💥
+
+---
+
+## 📱 Mobile (Android & iOS) Installation Guide
+
+*For mobile installation, you must use **[Quetta Browser](https://www.quetta.net/)** (An Apple iOS version is available but currently untested by us).*
+
+1. Download and install **[Quetta Browser](https://www.quetta.net/)** on your device.
+2. Download the latest **`.zip`** or **`.crx`** file from this GitHub page to your phone. <br>⚠️ **IMPORTANT:** DO NOT extract/unzip this file! Keep it exactly as it is.
+3. Open Quetta Browser.
+4. Go to the menu: Tap the **3 Dots (⋮)** > **Puzzle Icon 🧩 (Extensions)** > **Manage Extensions**.
+5. Turn on **Developer Options**.
+6. Tap the **"+ From .zip / .crx"** button.
+7. Select the file you downloaded. The extension will be installed instantly! 🥷
+
+---
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</div>
+
+<div align="center">
+  <h2>🌟 PROJEYE DESTEK OL / SUPPORT THE PROJECT 🌟</h2>
+  
+  <a href="https://github.com/kaptanbey0/kaptan-dm-cleaner">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaptanbey0&repo=kaptan-dm-cleaner&theme=tokyonight&hide_border=true&icon_color=5865F2" alt="Repo Stats" />
+  </a>
+  <br><br>
+
+  <p><b>⚠️ Yasal Uyarı / Disclaimer:</b> Bu proje bağımsız bir geliştirici tarafından yapılmıştır ve Discord Inc. ile bağlantısı yoktur. / <i>This project is an independent utility and is not affiliated with Discord Inc.</i></p>
+  
+  <img src="https://komarev.com/ghpvc/?username=kaptan-dm-cleaner-readme&label=PROFILE+VIEWS&color=00ff00&style=for-the-badge" alt="Görüntülenme Sayacı" />
+  <br><br>
+  
+  <h3>⭐ Eğer bu proje işinize yaradıysa YILDIZ (Star) vermeyi unutmayın! / Consider giving a Star! ⭐</h3>
+  
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=120&section=footer" />
+</div>
