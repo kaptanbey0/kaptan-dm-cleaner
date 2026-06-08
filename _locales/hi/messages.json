@@ -1,0 +1,156 @@
+{
+   "modalAuthError": {
+      "description": "प्रमाणीकरण त्रुटि संदेश",
+      "message": "प्रमाणीकरण विफल। कृपया पृष्ठ को रीफ्रेश करें।"
+   },
+   "modalCancel": {
+      "description": "रद्द करें बटन",
+      "message": "रद्द करें"
+   },
+   "modalChannelNotDetected": {
+      "description": "चैनल का पता नहीं चला शीर्षक",
+      "message": "चैनल का पता नहीं चला"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "चैनल का पता नहीं चला संदेश",
+      "message": "चैनल ID का पता नहीं लगाया जा सका।"
+   },
+   "modalConfirm": {
+      "description": "पुष्टि करें बटन",
+      "message": "पुष्टि करें"
+   },
+   "modalConfirmDeletion": {
+      "description": "हटाने की पुष्टि करें शीर्षक",
+      "message": "हटाने की पुष्टि करें"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "हटाने की पुष्टि करें संदेश",
+      "message": "अपने $LIMIT$ संदेशों को हटाएं?\n\nहटाए गए संदेश पुनर्प्राप्त नहीं किए जा सकते।\n\nयह प्रक्रिया Discord के API दर सीमाओं का सम्मान करती है।",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "हटाना पूर्ण शीर्षक",
+      "message": "हटाना पूर्ण"
+   },
+   "modalDeletionInProgress": {
+      "description": "हटाना प्रगति में है शीर्षक",
+      "message": "हटाना प्रगति में है"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "हटाना प्रगति में है संदेश",
+      "message": "क्या आप वाकई बंद करना चाहते हैं? हटाने की प्रक्रिया रोक दी जाएगी।"
+   },
+   "modalDeletionStopped": {
+      "description": "हटाना रोक दिया गया संदेश",
+      "message": "उपयोगकर्ता द्वारा हटाना रोक दिया गया।"
+   },
+   "modalDeletionSuccess": {
+      "description": "हटाना सफल संदेश",
+      "message": "सभी संदेश सफलतापूर्वक हटा दिए गए हैं।"
+   },
+   "modalError": {
+      "description": "त्रुटि शीर्षक",
+      "message": "त्रुटि"
+   },
+   "modalErrorMessage": {
+      "description": "त्रुटि संदेश",
+      "message": "हटाने के दौरान एक त्रुटि हुई। कृपया विवरण के लिए कंसोल जांचें।"
+   },
+   "modalNoMessagesFound": {
+      "description": "कोई संदेश नहीं मिला शीर्षक",
+      "message": "कोई संदेश नहीं मिला"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "कोई संदेश नहीं मिला संदेश",
+      "message": "हटाने के लिए कोई संदेश नहीं मिला।"
+   },
+   "modalNotOnDMPage": {
+      "description": "DM पृष्ठ पर नहीं शीर्षक",
+      "message": "DM पृष्ठ पर नहीं"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "DM पृष्ठ पर नहीं संदेश",
+      "message": "कृपया पहले एक DM वार्तालाप पर नेविगेट करें।"
+   },
+   "modalOk": {
+      "description": "ठीक बटन",
+      "message": "ठीक"
+   },
+   "panelClose": {
+      "description": "बंद करें बटन",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "कॉपीराइट पाठ",
+      "message": "v1.0.0 © 2025 Kyo. सभी अधिकार सुरक्षित।"
+   },
+   "panelFooter": {
+      "description": "फुटर लिंक",
+      "message": "kyo.services"
+   },
+   "panelInfo": {
+      "description": "जानकारी संदेश",
+      "message": "हटाए गए संदेश पुनर्प्राप्त नहीं किए जा सकते। केवल आपके संदेश हटाए जाएंगे।"
+   },
+   "panelMessageLimit": {
+      "description": "संदेश सीमा लेबल",
+      "message": "संदेश सीमा"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "संदेश सीमा इनपुट placeholder",
+      "message": "हटाने के लिए संदेशों की संख्या"
+   },
+   "panelStartDeleting": {
+      "description": "हटाना शुरू करें बटन",
+      "message": "हटाना शुरू करें"
+   },
+   "panelTitle": {
+      "description": "पैनल शीर्षक",
+      "message": "DM क्लीनर"
+   },
+   "progressDeleted": {
+      "description": "हटाए गए गिनती लेबल",
+      "message": "हटाए गए"
+   },
+   "progressFailed": {
+      "description": "विफल गिनती लेबल",
+      "message": "विफल"
+   },
+   "progressStop": {
+      "description": "रोकें बटन",
+      "message": "रोकें"
+   },
+   "progressTitle": {
+      "description": "प्रगति बार शीर्षक",
+      "message": "Kyo DM Cleaner आपके dm संदेशों को साफ कर रहा है..."
+   },
+   "progressTotal": {
+      "description": "कुल गिनती लेबल",
+      "message": "कुल"
+   },
+   "statusAuthError": {
+      "description": "प्रमाणीकरण त्रुटि स्थिति",
+      "message": "प्रमाणीकरण विफल। कृपया पृष्ठ को रीफ्रेश करें।"
+   },
+   "statusAuthenticating": {
+      "description": "प्रमाणीकरण स्थिति",
+      "message": "प्रमाणीकरण हो रहा है..."
+   },
+   "statusInitializing": {
+      "description": "आरंभ स्थिति",
+      "message": "आरंभ हो रहा है... कृपया प्रतीक्षा करें।"
+   },
+   "statusNotOnDMPage": {
+      "description": "DM पृष्ठ पर नहीं स्थिति",
+      "message": "कृपया एक DM वार्तालाप पर नेविगेट करें।"
+   },
+   "statusReady": {
+      "description": "तैयार स्थिति",
+      "message": "संदेश हटाने के लिए तैयार"
+   }
+}

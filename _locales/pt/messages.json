@@ -1,0 +1,156 @@
+{
+   "modalAuthError": {
+      "description": "Mensagem de erro de autenticação",
+      "message": "Falha na autenticação. Por favor recarregue a página."
+   },
+   "modalCancel": {
+      "description": "Botão cancelar",
+      "message": "Cancelar"
+   },
+   "modalChannelNotDetected": {
+      "description": "Título canal não detectado",
+      "message": "Canal não detectado"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "Mensagem canal não detectado",
+      "message": "Não foi possível detectar o ID do canal."
+   },
+   "modalConfirm": {
+      "description": "Botão confirmar",
+      "message": "Confirmar"
+   },
+   "modalConfirmDeletion": {
+      "description": "Título confirmar exclusão",
+      "message": "Confirmar exclusão"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "Mensagem confirmar exclusão",
+      "message": "Excluir até $LIMIT$ de suas mensagens?\n\nMensagens excluídas NÃO podem ser recuperadas.\n\nEste processo respeita os limites de taxa da API do Discord.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "Título exclusão concluída",
+      "message": "Exclusão concluída"
+   },
+   "modalDeletionInProgress": {
+      "description": "Título exclusão em progresso",
+      "message": "Exclusão em progresso"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "Mensagem exclusão em progresso",
+      "message": "Tem certeza de que deseja fechar? O processo de exclusão será interrompido."
+   },
+   "modalDeletionStopped": {
+      "description": "Mensagem exclusão interrompida",
+      "message": "Exclusão interrompida pelo usuário."
+   },
+   "modalDeletionSuccess": {
+      "description": "Mensagem exclusão bem-sucedida",
+      "message": "Todas as mensagens foram excluídas com sucesso."
+   },
+   "modalError": {
+      "description": "Título erro",
+      "message": "Erro"
+   },
+   "modalErrorMessage": {
+      "description": "Mensagem de erro",
+      "message": "Ocorreu um erro durante a exclusão. Por favor verifique o console para detalhes."
+   },
+   "modalNoMessagesFound": {
+      "description": "Título nenhuma mensagem encontrada",
+      "message": "Nenhuma mensagem encontrada"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "Mensagem nenhuma mensagem encontrada",
+      "message": "Nenhuma mensagem encontrada para excluir."
+   },
+   "modalNotOnDMPage": {
+      "description": "Título não está na página DM",
+      "message": "Não está em uma página de DM"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "Mensagem não está na página DM",
+      "message": "Por favor navegue para uma conversa de DM primeiro."
+   },
+   "modalOk": {
+      "description": "Botão OK",
+      "message": "OK"
+   },
+   "panelClose": {
+      "description": "Botão fechar",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "Texto de direitos autorais",
+      "message": "v1.0.0 © 2025 Kyo. Todos os direitos reservados."
+   },
+   "panelFooter": {
+      "description": "Link do rodapé",
+      "message": "kyo.services"
+   },
+   "panelInfo": {
+      "description": "Mensagem informativa",
+      "message": "Mensagens excluídas não podem ser recuperadas. Apenas suas mensagens serão excluídas."
+   },
+   "panelMessageLimit": {
+      "description": "Rótulo de limite de mensagens",
+      "message": "Limite de mensagens"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "Placeholder do input de limite de mensagens",
+      "message": "Número de mensagens para excluir"
+   },
+   "panelStartDeleting": {
+      "description": "Botão começar exclusão",
+      "message": "Começar exclusão"
+   },
+   "panelTitle": {
+      "description": "Título do painel",
+      "message": "Limpeza de DM"
+   },
+   "progressDeleted": {
+      "description": "Rótulo de contagem excluídas",
+      "message": "Excluídas"
+   },
+   "progressFailed": {
+      "description": "Rótulo de contagem falhadas",
+      "message": "Falhadas"
+   },
+   "progressStop": {
+      "description": "Botão parar",
+      "message": "Parar"
+   },
+   "progressTitle": {
+      "description": "Título da barra de progresso",
+      "message": "Kyo DM Cleaner limpando suas mensagens de dm..."
+   },
+   "progressTotal": {
+      "description": "Rótulo de contagem total",
+      "message": "Total"
+   },
+   "statusAuthError": {
+      "description": "Status de erro de autenticação",
+      "message": "Falha na autenticação. Por favor recarregue a página."
+   },
+   "statusAuthenticating": {
+      "description": "Status de autenticação",
+      "message": "Autenticando..."
+   },
+   "statusInitializing": {
+      "description": "Status inicializando",
+      "message": "Inicializando... Por favor aguarde."
+   },
+   "statusNotOnDMPage": {
+      "description": "Status não está na página DM",
+      "message": "Por favor navegue para uma conversa de DM."
+   },
+   "statusReady": {
+      "description": "Status pronto",
+      "message": "Pronto para excluir mensagens"
+   }
+}

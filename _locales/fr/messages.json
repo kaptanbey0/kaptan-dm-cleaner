@@ -1,0 +1,156 @@
+{
+   "modalAuthError": {
+      "description": "Message d'erreur d'authentification",
+      "message": "Échec de l'authentification. Veuillez actualiser la page."
+   },
+   "modalCancel": {
+      "description": "Bouton annuler",
+      "message": "Annuler"
+   },
+   "modalChannelNotDetected": {
+      "description": "Titre canal non détecté",
+      "message": "Canal non détecté"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "Message canal non détecté",
+      "message": "Impossible de détecter l'ID du canal."
+   },
+   "modalConfirm": {
+      "description": "Bouton confirmer",
+      "message": "Confirmer"
+   },
+   "modalConfirmDeletion": {
+      "description": "Titre confirmer la suppression",
+      "message": "Confirmer la suppression"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "Message confirmer la suppression",
+      "message": "Supprimer jusqu'à $LIMIT$ de vos messages?\n\nLes messages supprimés NE PEUVENT PAS être récupérés.\n\nCe processus respecte les limites de débit de l'API Discord.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "Titre suppression terminée",
+      "message": "Suppression terminée"
+   },
+   "modalDeletionInProgress": {
+      "description": "Titre suppression en cours",
+      "message": "Suppression en cours"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "Message suppression en cours",
+      "message": "Êtes-vous sûr de vouloir fermer? Le processus de suppression sera arrêté."
+   },
+   "modalDeletionStopped": {
+      "description": "Message suppression arrêtée",
+      "message": "Suppression arrêtée par l'utilisateur."
+   },
+   "modalDeletionSuccess": {
+      "description": "Message suppression réussie",
+      "message": "Tous les messages ont été supprimés avec succès."
+   },
+   "modalError": {
+      "description": "Titre erreur",
+      "message": "Erreur"
+   },
+   "modalErrorMessage": {
+      "description": "Message d'erreur",
+      "message": "Une erreur s'est produite lors de la suppression. Veuillez vérifier la console pour plus de détails."
+   },
+   "modalNoMessagesFound": {
+      "description": "Titre aucun message trouvé",
+      "message": "Aucun message trouvé"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "Message aucun message trouvé",
+      "message": "Aucun message trouvé à supprimer."
+   },
+   "modalNotOnDMPage": {
+      "description": "Titre pas sur la page DM",
+      "message": "Pas sur une page DM"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "Message pas sur la page DM",
+      "message": "Veuillez d'abord naviguer vers une conversation DM."
+   },
+   "modalOk": {
+      "description": "Bouton OK",
+      "message": "OK"
+   },
+   "panelClose": {
+      "description": "Bouton fermer",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "Texte de droits d'auteur",
+      "message": "v1.0.0 © 2025 Kyo. Tous droits réservés."
+   },
+   "panelFooter": {
+      "description": "Lien du pied de page",
+      "message": "kyo.services"
+   },
+   "panelInfo": {
+      "description": "Message informatif",
+      "message": "Les messages supprimés ne peuvent pas être récupérés. Seuls vos messages seront supprimés."
+   },
+   "panelMessageLimit": {
+      "description": "Étiquette de limite de messages",
+      "message": "Limite de messages"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "Placeholder du champ de limite de messages",
+      "message": "Nombre de messages à supprimer"
+   },
+   "panelStartDeleting": {
+      "description": "Bouton commencer la suppression",
+      "message": "Commencer la suppression"
+   },
+   "panelTitle": {
+      "description": "Titre du panneau",
+      "message": "Nettoyeur de DM"
+   },
+   "progressDeleted": {
+      "description": "Étiquette de comptage supprimés",
+      "message": "Supprimés"
+   },
+   "progressFailed": {
+      "description": "Étiquette de comptage échoués",
+      "message": "Échoués"
+   },
+   "progressStop": {
+      "description": "Bouton arrêter",
+      "message": "Arrêter"
+   },
+   "progressTitle": {
+      "description": "Titre de la barre de progression",
+      "message": "Kyo DM Cleaner nettoie vos messages dm..."
+   },
+   "progressTotal": {
+      "description": "Étiquette de comptage total",
+      "message": "Total"
+   },
+   "statusAuthError": {
+      "description": "Statut d'erreur d'authentification",
+      "message": "Échec de l'authentification. Veuillez actualiser la page."
+   },
+   "statusAuthenticating": {
+      "description": "Statut d'authentification",
+      "message": "Authentification..."
+   },
+   "statusInitializing": {
+      "description": "Statut initialisation",
+      "message": "Initialisation... Veuillez patienter."
+   },
+   "statusNotOnDMPage": {
+      "description": "Statut pas sur la page DM",
+      "message": "Veuillez naviguer vers une conversation DM."
+   },
+   "statusReady": {
+      "description": "Statut prêt",
+      "message": "Prêt à supprimer les messages"
+   }
+}

@@ -1,0 +1,678 @@
+{
+   "modeSingleTitle": {
+      "description": "Single DM mode title",
+      "message": "Single DM"
+   },
+   "modeSingleDesc": {
+      "description": "Single DM mode description",
+      "message": "Current conversation only"
+   },
+   "modeSelectedTitle": {
+      "description": "Selected DMs mode title",
+      "message": "Selected DMs"
+   },
+   "modeSelectedDesc": {
+      "description": "Selected DMs mode description",
+      "message": "Choose conversations"
+   },
+   "modeFullTitle": {
+      "description": "Full Wipe mode title",
+      "message": "Full Wipe"
+   },
+   "modeFullDesc": {
+      "description": "Full Wipe mode description",
+      "message": "Delete everything"
+   },
+   "modalAuthError": {
+      "description": "Auth error message",
+      "message": "Authentication failed. Please refresh the page."
+   },
+   "modalCancel": {
+      "description": "Cancel button",
+      "message": "Cancel"
+   },
+   "modalChannelNotDetected": {
+      "description": "Channel not detected title",
+      "message": "Channel Not Detected"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "Channel not detected message",
+      "message": "Failed to detect the channel ID."
+   },
+   "modalConfirm": {
+      "description": "Confirm button",
+      "message": "Confirm"
+   },
+   "modalConfirmDeletion": {
+      "description": "Confirm deletion title",
+      "message": "Confirm Deletion"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "Confirm deletion message",
+      "message": "Are you sure you want to delete up to $LIMIT$ messages?\n\nDeleted messages CANNOT be recovered.\n\nThis process respects Discord's API rate limits.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "Deletion complete title",
+      "message": "Deletion Complete"
+   },
+   "modalDeletionInProgress": {
+      "description": "Deletion in progress title",
+      "message": "Deletion in Progress"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "Deletion in progress message",
+      "message": "Are you sure you want to close? The deletion process will be stopped."
+   },
+   "modalDeletionStopped": {
+      "description": "Deletion stopped message",
+      "message": "Deletion process stopped by user."
+   },
+   "modalDeletionSuccess": {
+      "description": "Deletion success message",
+      "message": "All messages successfully deleted."
+   },
+   "modalError": {
+      "description": "Error title",
+      "message": "Error"
+   },
+   "modalErrorMessage": {
+      "description": "Error message",
+      "message": "An error occurred during deletion. Please check the console."
+   },
+   "modalNoMessagesFound": {
+      "description": "No messages found title",
+      "message": "No Messages Found"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "No messages found message",
+      "message": "No messages found to delete."
+   },
+   "modalNotOnDMPage": {
+      "description": "Not on DM page title",
+      "message": "Not on DM Page"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "Not on DM page message",
+      "message": "Please navigate to a DM conversation first."
+   },
+   "modalOk": {
+      "description": "OK button",
+      "message": "OK"
+   },
+   "panelClose": {
+      "description": "Close button",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "Copyright text",
+      "message": "v5.1.0 © 2026 Kaptanbey0. All rights reserved."
+   },
+   "panelFooter": {
+      "description": "Footer link",
+      "message": ""
+   },
+   "panelInfo": {
+      "description": "Info message",
+      "message": "Deleted messages cannot be recovered. Only your messages will be deleted."
+   },
+   "panelMessageLimit": {
+      "description": "Message limit label",
+      "message": "Message limit"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "Message limit input placeholder",
+      "message": "Number of messages to delete"
+   },
+   "panelStartDeleting": {
+      "description": "Start deleting button",
+      "message": "Start deleting"
+   },
+   "panelTitle": {
+      "description": "Panel title",
+      "message": "Kaptan DM Cleaner"
+   },
+   "progressDeleted": {
+      "description": "Deleted count label",
+      "message": "Deleted"
+   },
+   "progressFailed": {
+      "description": "Failed count label",
+      "message": "Failed"
+   },
+   "progressStop": {
+      "description": "Stop button",
+      "message": "Stop"
+   },
+   "progressTitle": {
+      "description": "Progress bar title",
+      "message": "Kaptan DM Cleaner cleaning your dm messages..."
+   },
+   "progressTotal": {
+      "description": "Total count label",
+      "message": "Total"
+   },
+   "statusAuthError": {
+      "description": "Auth error status",
+      "message": "Failed to authenticate. Please refresh the page."
+   },
+   "statusAuthenticating": {
+      "description": "Authenticating status",
+      "message": "Authenticating..."
+   },
+   "statusInitializing": {
+      "description": "Initializing status",
+      "message": "Initializing... Please wait."
+   },
+   "statusNotOnDMPage": {
+      "description": "Not on DM page status",
+      "message": "Please navigate to a DM conversation."
+   },
+   "statusReady": {
+      "description": "Ready status",
+      "message": "Ready to delete messages"
+   },
+   "panelDeleteAll": {
+      "description": "Checkbox to delete all messages",
+      "message": "Unlimited Delete (All History)"
+   },
+   "panelClearAllDMs": {
+      "description": "Checkbox to clear all DM channels",
+      "message": "Clear All DM Channels"
+   },
+   "modalConfirmClearAllDMsMessage": {
+      "description": "Modal confirmation for deleting all messages in all DMs",
+      "message": "Are you sure you want to delete your messages across ALL DM conversations (including closed/hidden ones)?\n\nThis process may take a long time and cannot be undone."
+   },
+   "tabCleaner": {
+      "description": "Tab name for cleaner",
+      "message": "Cleaner"
+   },
+   "tabHiddenDMs": {
+      "description": "Tab name for hidden DMs",
+      "message": "Hidden DMs"
+   },
+   "aiInputLabel": {
+      "description": "AI filtering input label",
+      "message": "AI Filtering Assistant"
+   },
+   "aiInputPlaceholder": {
+      "description": "AI filtering input placeholder",
+      "message": "e.g. 'only photos and videos' or 'delete links'"
+   },
+   "openDMBtn": {
+      "description": "Button to open hidden DM",
+      "message": "Open"
+   },
+   "downloadReportBtn": {
+      "description": "Button to download summary report",
+      "message": "Download Report"
+   },
+   "panelServerTitle": {
+      "description": "Panel title when on guild channel",
+      "message": "Kaptan Server Cleaner"
+   },
+   "guildStatusReady": {
+      "description": "Status text for guild channels",
+      "message": "Ready to delete messages in channel"
+   },
+   "guildConfirmMessage": {
+      "description": "Confirmation message for guild messages",
+      "message": "Are you sure you want to delete up to $LIMIT$ messages in this server channel?\n\nThis action cannot be undone.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "guildConfirmAllMessage": {
+      "description": "Confirmation message for all guild messages",
+      "message": "Are you sure you want to delete ALL messages in this server channel?\n\nThis action cannot be undone!"
+   },
+   "extensionName": {
+      "description": "Name of the extension",
+      "message": "Kaptan DM Cleaner"
+   },
+   "extensionDesc": {
+      "description": "Description of the extension",
+      "message": "Secure and fast direct message cleaner. Clean chat history with rate limit protection, a custom siber theme, and downloadable reports."
+   },
+   "selectDMsLabel": {
+      "description": "Label for choosing DMs to clear",
+      "message": "Select DM Channels to Clear:"
+   },
+   "progressServerTitle": {
+      "description": "Progress title for guild cleaning",
+      "message": "Clearing Server Channel..."
+   },
+   "serverChannelName": {
+      "description": "Fallback name for server channels",
+      "message": "Server Channel"
+   },
+   "modalServerSuccess": {
+      "description": "Success message for server channel cleaning",
+      "message": "Channel cleanup completed successfully!"
+   },
+   "panelLegalDisclaimer": {
+      "description": "Legal disclaimer for Chrome Web Store compliance",
+      "message": "Disclaimer: This tool is an independent helper application and does not have any official affiliation, authorization, or sponsorship relationship with Discord Inc. The user bears all responsibility."
+   },
+   "stepSearchingToken": {
+      "description": "Status text searching token",
+      "message": "Searching token..."
+   },
+   "stepVerifyingToken": {
+      "description": "Status text verifying token",
+      "message": "Verifying identity..."
+   },
+   "stepListingChats": {
+      "description": "Status text listing chats",
+      "message": "Listing chats..."
+   },
+   "stepSettingUpAI": {
+      "description": "Status text setting up AI",
+      "message": "Setting up AI Assistant..."
+   },
+   "stepKaptanReady": {
+      "description": "Status text captain ready",
+      "message": "Kaptan is ready!"
+   },
+   "stepLoadingProfile": {
+      "description": "Status text loading profile",
+      "message": "Loading profile..."
+   },
+   "calculating": {
+      "description": "Calculating text",
+      "message": "Calculating..."
+   },
+   "hourShort": {
+      "description": "Hour short unit",
+      "message": "h"
+   },
+   "minuteShort": {
+      "description": "Minute short unit",
+      "message": "m"
+   },
+   "secondShort": {
+      "description": "Second short unit",
+      "message": "s"
+   },
+   "progressRemaining": {
+      "description": "Remaining label",
+      "message": "Remaining"
+   },
+   "terminalInitialized": {
+      "description": "Terminal boot line",
+      "message": "Kaptan Terminal Started. Awaiting message scans..."
+   },
+   "terminalScanning": {
+      "description": "Terminal scan status",
+      "message": "Scanning channel cleanup: $NAME$",
+      "placeholders": {
+         "NAME": {
+            "content": "$1",
+            "example": "Kaptan"
+         }
+      }
+   },
+   "terminalBatchReceived": {
+      "description": "Terminal batch messages log",
+      "message": "Batch message package received: $COUNT$ messages",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "terminalMatchesFound": {
+      "description": "Terminal messages matches filtered log",
+      "message": "Found $COUNT$ messages matching deletion filter.",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "terminalDeleted": {
+      "description": "Terminal deletion success log",
+      "message": "[OK] Deleted: \"$CONTENT$\"",
+      "placeholders": {
+         "CONTENT": {
+            "content": "$1",
+            "example": "Hello"
+         }
+      }
+   },
+   "terminalFailed": {
+      "description": "Terminal deletion failed log",
+      "message": "[ERROR] Failed to delete: $MSGID$",
+      "placeholders": {
+         "MSGID": {
+            "content": "$1",
+            "example": "12345"
+         }
+      }
+   },
+   "notificationSuccess": {
+      "description": "Push notification body success",
+      "message": "Cleanup process completed successfully!"
+   },
+   "notificationStopped": {
+      "description": "Push notification body stopped",
+      "message": "Cleanup process stopped."
+   },
+   "selectAtLeastOneDM": {
+      "description": "Alert when no DM selected",
+      "message": "Please select at least one DM box to clean."
+   },
+   "groupDM": {
+      "description": "Group DM label fallback",
+      "message": "Group DM"
+   },
+   "modalMultiDMSuccess": {
+      "description": "Success message when multiple DMs cleared",
+      "message": "All selected DM boxes cleaned successfully!"
+   },
+   "modalConfirmClearAllMessages": {
+      "description": "Confirmation when deleting all messages from DM",
+      "message": "Are you sure you want to delete all your messages in this DM? (Cannot be undone!)"
+   },
+   "advSettingsTitle": {
+      "description": "Advanced Options Accordion title",
+      "message": "Advanced Settings & Filters"
+   },
+   "advWhitelistLabel": {
+      "description": "Whitelist Safe Words Label",
+      "message": "Whitelist Safe Words (comma separated):"
+   },
+   "advWhitelistPlaceholder": {
+      "description": "Whitelist Words Placeholder",
+      "message": "password, secret, card, bank..."
+   },
+   "advKeepPinnedLabel": {
+      "description": "Protect Pinned Messages Label",
+      "message": "Protect Pinned Messages"
+   },
+   "advDateStartLabel": {
+      "description": "Start Date Label",
+      "message": "Start Date (will not clear older than this):"
+   },
+   "advDateEndLabel": {
+      "description": "End Date Label",
+      "message": "End Date (will not clear newer than this):"
+   },
+   "advMsgTypeLabel": {
+      "description": "Message Type Filter Label",
+      "message": "Filter Specific Message Type:"
+   },
+   "advMsgTypeAll": {
+      "description": "All message types option",
+      "message": "All Messages"
+   },
+   "advMsgTypeReplies": {
+      "description": "Only replies option",
+      "message": "Only Replies"
+   },
+   "advMsgTypeGifs": {
+      "description": "Only gifs option",
+      "message": "Only GIFs"
+   },
+   "advMsgTypeAttachments": {
+      "description": "Only attachments option",
+      "message": "Only Attachments / Media"
+   },
+   "advBackupLabel": {
+      "description": "Backup Messages Before Deleting Label",
+      "message": "Backup Chat as TXT Before Deleting"
+   },
+   "advGhostModeLabel": {
+      "description": "Ghost Mode Dynamic Delay Label",
+      "message": "Ghost Mode (Human Jitter Delay 1.2s - 2.5s)"
+   },
+   "advDryRunLabel": {
+      "description": "Test Mode Dry Run Label",
+      "message": "Test Mode (Dry Run - Simulate Deletion)"
+   },
+   "lifetimeStatsDeleted": {
+      "description": "Lifetime statistics total deleted messages",
+      "message": "Lifetime Deleted"
+   },
+   "lifetimeStatsCleaned": {
+      "description": "Lifetime statistics space cleaned",
+      "message": "Cleaned Space"
+   },
+   "progressPause": {
+      "description": "Pause progress label",
+      "message": "Pause"
+   },
+   "progressResume": {
+      "description": "Resume progress label",
+      "message": "Resume"
+   },
+   "terminalPaused": {
+      "description": "Terminal logs paused status",
+      "message": "Kaptan Terminal Paused."
+   },
+   "terminalResumed": {
+      "description": "Terminal logs resumed status",
+      "message": "Kaptan Terminal Resumed..."
+   },
+   "terminalDryRunStarted": {
+      "description": "Terminal logs dry run start line",
+      "message": "TEST MODE: Simulation started. No messages will be deleted."
+   },
+   "terminalDryRunSuccess": {
+      "description": "Terminal logs simulated deletion log",
+      "message": "[TEST-OK] Simulated Delete: \"$CONTENT$\"",
+      "placeholders": {
+         "CONTENT": {
+            "content": "$1",
+            "example": "Hi"
+         }
+      }
+   },
+   "backupDownloadSuccess": {
+      "description": "Message backup completed alert",
+      "message": "Chat backup was successfully downloaded to your computer before deletion."
+   },
+   "promoBadgeText": {
+      "description": "Link text for itemsatis store badge",
+      "message": "Kaptan Shop (İtemSatış)"
+   },
+   "buyMeACoffeeText": {
+      "description": "Buy me a coffee button label",
+      "message": "Buy Me a Coffee"
+   },
+   "feedbackTitle": {
+      "description": "Feedback section title",
+      "message": "Send Feedback / Bug Report"
+   },
+   "feedbackPlaceholder": {
+      "description": "Feedback text input placeholder",
+      "message": "Write your suggestions, bugs or message..."
+   },
+   "feedbackSendBtn": {
+      "description": "Feedback send button label",
+      "message": "Send Feedback"
+   },
+   "feedbackEmptyErr": {
+      "description": "Feedback empty message error",
+      "message": "Please write a message before sending."
+   },
+   "feedbackSuccess": {
+      "description": "Feedback success alert",
+      "message": "Your feedback was sent successfully! Thank you."
+   },
+   "feedbackSpamErr": {
+      "description": "Feedback cooldown spam error",
+      "message": "You are sending too fast! Please wait 60 seconds."
+   },
+   "filterImages": {
+      "description": "Filter images checkbox",
+      "message": "Images"
+   },
+   "filterVideos": {
+      "description": "Filter videos checkbox",
+      "message": "Videos"
+   },
+   "filterGifs": {
+      "description": "Filter gifs checkbox",
+      "message": "GIFs"
+   },
+   "filterAudio": {
+      "description": "Filter audio checkbox",
+      "message": "Audio Files"
+   },
+   "filterZipRar": {
+      "description": "Filter zip/rar checkbox",
+      "message": "Zip / Rar"
+   },
+   "filterLinks": {
+      "description": "Filter links checkbox",
+      "message": "Links / URLs"
+   },
+   "filterEmbeds": {
+      "description": "Filter embeds checkbox",
+      "message": "Embeds"
+   },
+   "filterLengthShort": {
+      "description": "Filter short message",
+      "message": "Shorter than 10 chars"
+   },
+   "filterLengthLong": {
+      "description": "Filter long message",
+      "message": "Longer than 100 chars"
+   },
+   "filterLengthEmpty": {
+      "description": "Filter empty message",
+      "message": "Empty Messages"
+   },
+   "filterEmoji": {
+      "description": "Filter emojis message",
+      "message": "Only Emojis"
+   },
+   "filterMention": {
+      "description": "Filter mentions message",
+      "message": "Only Mentions"
+   },
+   "filterSpam": {
+      "description": "Filter spam message",
+      "message": "Spam / Duplicate Messages"
+   },
+   "achievementUnlocked": {
+      "description": "Achievement unlocked title",
+      "message": "Achievement Unlocked!"
+   },
+   "achievementFirstCleanup": {
+      "description": "First Cleanup Achievement",
+      "message": "First Cleanup"
+   },
+   "achievementMassCleaner": {
+      "description": "Mass Cleaner Achievement",
+      "message": "Mass Cleaner"
+   },
+   "achievementDigitalGhost": {
+      "description": "Digital Ghost Achievement",
+      "message": "Digital Ghost"
+   },
+   "achievementInvestigator": {
+      "description": "Investigator Achievement",
+      "message": "Investigator"
+   },
+   "achievementNightOwl": {
+      "description": "Night Owl Achievement",
+      "message": "Night Owl"
+   },
+   "achievementSpeedDemon": {
+      "description": "Speed Demon Achievement",
+      "message": "Speed Demon"
+   },
+   "achievementBackupMaster": {
+      "description": "Backup Master Achievement",
+      "message": "Backup Master"
+   },
+   "achievementMultiSweep": {
+      "description": "Multi Sweep Achievement",
+      "message": "Multi Sweep"
+   },
+   "achievementGhostProtocol": {
+      "description": "Ghost Protocol Achievement",
+      "message": "Ghost Protocol"
+   },
+   "achievementFilterMaster": {
+      "description": "Filter Master Achievement",
+      "message": "Filter Master"
+   },
+   "achievementPanicButton": {
+      "description": "Panic Button Achievement",
+      "message": "Panic Button"
+   },
+   "achievementCompletionist": {
+      "description": "Completionist Achievement",
+      "message": "Completionist"
+   },
+   "achievementNeo": {
+      "description": "Neo Matrix Achievement",
+      "message": "The Chosen One (Neo)"
+   },
+   "achievementShopSupporter": {
+      "description": "Shop Supporter Achievement",
+      "message": "Shop Supporter"
+   },
+   "achievementDevFriend": {
+      "description": "Developer Friend Achievement",
+      "message": "Developer's Friend"
+   },
+   "achievementSpeedrunner": {
+      "description": "Speedrunner Achievement",
+      "message": "Speedrunner"
+   },
+   "achievementPerfectVoyage": {
+      "description": "Perfect Voyage Achievement",
+      "message": "Perfect Voyage"
+   },
+   "achievementArchivist": {
+      "description": "Archivist Achievement",
+      "message": "The Archivist"
+   },
+   "duplicateFinderTitle": {
+      "description": "Duplicate Finder title",
+      "message": "Duplicate Attachment Finder"
+   },
+   "deleteDuplicatesBtn": {
+      "description": "Delete Duplicates button",
+      "message": "Delete Duplicates"
+   },
+   "activityReportTitle": {
+      "description": "Activity Report title",
+      "message": "Discord Activity Report"
+   },
+   "exportMarkdownBtn": {
+      "description": "Export Markdown button",
+      "message": "Export as Markdown"
+   },
+   "exportJsonBtn": {
+      "description": "Export JSON button",
+      "message": "Export as JSON"
+   },
+   "liveRequestMonitor": {
+      "description": "Live Request Monitor label",
+      "message": "Live API Console"
+   },
+   "performanceMeter": {
+      "description": "Performance Meter label",
+      "message": "Performance Debug Panel"
+   },
+   "konamiEasterEgg": {
+      "description": "Konami easter egg activated",
+      "message": "MATRIX EASTER EGG ACTIVATED!"
+   }
+}

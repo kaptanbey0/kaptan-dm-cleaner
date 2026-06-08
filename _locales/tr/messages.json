@@ -1,0 +1,678 @@
+{
+   "modeSingleTitle": {
+      "description": "Tekli DM modu başlığı",
+      "message": "Tekli DM"
+   },
+   "modeSingleDesc": {
+      "description": "Tekli DM modu açıklaması",
+      "message": "Sadece açık olan sohbet"
+   },
+   "modeSelectedTitle": {
+      "description": "Seçili DM'ler modu başlığı",
+      "message": "Seçili DM'ler"
+   },
+   "modeSelectedDesc": {
+      "description": "Seçili DM'ler modu açıklaması",
+      "message": "Seçeceğiniz sohbetler"
+   },
+   "modeFullTitle": {
+      "description": "Tümünü Temizle modu başlığı",
+      "message": "Tümünü Temizle"
+   },
+   "modeFullDesc": {
+      "description": "Tümünü Temizle modu açıklaması",
+      "message": "Tüm sohbetleri siler"
+   },
+   "modalAuthError": {
+      "description": "Kimlik doğrulama hatası mesajı",
+      "message": "Kimlik doğrulama başarısız. Lütfen sayfayı yenileyin."
+   },
+   "modalCancel": {
+      "description": "İptal butonu",
+      "message": "İptal"
+   },
+   "modalChannelNotDetected": {
+      "description": "Kanal tespit edilemedi başlığı",
+      "message": "Kanal tespit edilemedi"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "Kanal tespit edilemedi mesajı",
+      "message": "Kanal ID'si tespit edilemedi."
+   },
+   "modalConfirm": {
+      "description": "Onayla butonu",
+      "message": "Onayla"
+   },
+   "modalConfirmDeletion": {
+      "description": "Silme işlemini onayla başlığı",
+      "message": "Silme işlemini onayla"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "Silme işlemini onayla mesajı",
+      "message": "$LIMIT$ mesajınızı silmek istiyor musunuz?\n\nSilinen mesajlar GERİ ALINAMAZ.\n\nBu işlem Discord'un API hız sınırlarına saygı gösterir.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "Silme işlemi tamamlandı başlığı",
+      "message": "Silme işlemi tamamlandı"
+   },
+   "modalDeletionInProgress": {
+      "description": "Silme işlemi devam ediyor başlığı",
+      "message": "Silme işlemi devam ediyor"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "Silme işlemi devam ediyor mesajı",
+      "message": "Kapatmak istediğinizden emin misiniz? Silme işlemi durdurulacaktır."
+   },
+   "modalDeletionStopped": {
+      "description": "Silme işlemi durduruldu mesajı",
+      "message": "Silme işlemi kullanıcı tarafından durduruldu."
+   },
+   "modalDeletionSuccess": {
+      "description": "Silme başarılı mesajı",
+      "message": "Tüm mesajlar başarıyla silindi."
+   },
+   "modalError": {
+      "description": "Hata başlığı",
+      "message": "Hata"
+   },
+   "modalErrorMessage": {
+      "description": "Hata mesajı",
+      "message": "Silme işlemi sırasında bir hata oluştu. Lütfen konsolu kontrol edin."
+   },
+   "modalNoMessagesFound": {
+      "description": "Mesaj bulunamadı başlığı",
+      "message": "Mesaj bulunamadı"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "Mesaj bulunamadı mesajı",
+      "message": "Silinecek mesaj bulunamadı."
+   },
+   "modalNotOnDMPage": {
+      "description": "DM sayfasında değil başlığı",
+      "message": "DM sayfasında değil"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "DM sayfasında değil mesajı",
+      "message": "Lütfen önce bir DM konuşmasına gidin."
+   },
+   "modalOk": {
+      "description": "Tamam butonu",
+      "message": "Tamam"
+   },
+   "panelClose": {
+      "description": "Kapat butonu",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "Telif hakkı metni",
+      "message": "v5.1.0 © 2026 Kaptanbey0. Tüm hakları saklıdır."
+   },
+   "panelFooter": {
+      "description": "Footer link",
+      "message": ""
+   },
+   "panelInfo": {
+      "description": "Bilgi mesajı",
+      "message": "Silinen mesajlar geri alınamaz. Sadece sizin mesajlarınız silinecektir."
+   },
+   "panelMessageLimit": {
+      "description": "Mesaj limiti etiketi",
+      "message": "Mesaj limiti"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "Mesaj limiti input placeholder",
+      "message": "Silinecek mesaj sayısı"
+   },
+   "panelStartDeleting": {
+      "description": "Silmeye başla butonu",
+      "message": "Silmeye başla"
+   },
+   "panelTitle": {
+      "description": "Panel başlığı",
+      "message": "Kaptan DM Temizleyici"
+   },
+   "progressDeleted": {
+      "description": "Silindi sayısı etiketi",
+      "message": "Silindi"
+   },
+   "progressFailed": {
+      "description": "Başarısız sayısı etiketi",
+      "message": "Başarısız"
+   },
+   "progressStop": {
+      "description": "Durdur butonu",
+      "message": "Durdur"
+   },
+   "progressTitle": {
+      "description": "Progress bar başlığı",
+      "message": "Kaptan DM Cleaner dm mesajlarınızı temizliyor..."
+   },
+   "progressTotal": {
+      "description": "Toplam sayısı etiketi",
+      "message": "Toplam"
+   },
+   "statusAuthError": {
+      "description": "Kimlik doğrulama hatası durumu",
+      "message": "Kimlik doğrulama başarısız. Lütfen sayfayı yenileyin."
+   },
+   "statusAuthenticating": {
+      "description": "Kimlik doğrulama durumu",
+      "message": "Kimlik doğrulanıyor..."
+   },
+   "statusInitializing": {
+      "description": "Başlatılıyor durumu",
+      "message": "Başlatılıyor... Lütfen bekleyin."
+   },
+   "statusNotOnDMPage": {
+      "description": "DM sayfasında değil durumu",
+      "message": "Lütfen bir DM konuşmasına gidin."
+   },
+   "statusReady": {
+      "description": "Hazır durumu",
+      "message": "Mesajları silmeye hazır"
+   },
+   "panelDeleteAll": {
+      "description": "Checkbox to delete all messages",
+      "message": "Sınırsız Sil (Tüm Geçmiş)"
+   },
+   "panelClearAllDMs": {
+      "description": "Checkbox to clear all DM channels",
+      "message": "Tüm DM Kutularını Temizle"
+   },
+   "modalConfirmClearAllDMsMessage": {
+      "description": "Modal confirmation for deleting all messages in all DMs",
+      "message": "Tüm DM kutularınızdaki (kapatılmış/gizli olanlar dahil) kendi mesajlarınızı silmek istediğinize emin misiniz?\n\nBu işlem çok uzun sürebilir ve geri alınamaz."
+   },
+   "tabCleaner": {
+      "description": "Tab name for cleaner",
+      "message": "Temizleyici"
+   },
+   "tabHiddenDMs": {
+      "description": "Tab name for hidden DMs",
+      "message": "Gizli DM'ler"
+   },
+   "aiInputLabel": {
+      "description": "AI filtering input label",
+      "message": "AI Filtreleme Asistanı"
+   },
+   "aiInputPlaceholder": {
+      "description": "AI filtering input placeholder",
+      "message": "Örn: 'sadece resim ve videolar' veya 'küfürleri sil'"
+   },
+   "openDMBtn": {
+      "description": "Button to open hidden DM",
+      "message": "Aç"
+   },
+   "downloadReportBtn": {
+      "description": "Button to download summary report",
+      "message": "Raporu İndir"
+   },
+   "panelServerTitle": {
+      "description": "Panel title when on guild channel",
+      "message": "Kaptan Sunucu Temizleyici"
+   },
+   "guildStatusReady": {
+      "description": "Status text for guild channels",
+      "message": "Kanalda mesajları silmeye hazır"
+   },
+   "guildConfirmMessage": {
+      "description": "Confirmation message for guild messages",
+      "message": "Bu sunucu kanalındaki en fazla $LIMIT$ mesajınızı silmek istediğinize emin misiniz?\n\nBu işlem geri alınamaz.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "guildConfirmAllMessage": {
+      "description": "Confirmation message for all guild messages",
+      "message": "Bu sunucu kanalındaki TÜM mesajlarınızı silmek istediğinize emin misiniz?\n\nBu işlem geri alınamaz!"
+   },
+   "extensionName": {
+      "description": "Name of the extension",
+      "message": "Kaptan DM Cleaner"
+   },
+   "extensionDesc": {
+      "description": "Description of the extension",
+      "message": "Güvenli ve hızlı mesaj temizleme asistanı. API hız sınırlarına uyumlu, siber temalı ve raporlama özellikli DM temizleyici."
+   },
+   "selectDMsLabel": {
+      "description": "Label for choosing DMs to clear",
+      "message": "Temizlenecek DM Kutularını Seçin:"
+   },
+   "progressServerTitle": {
+      "description": "Progress title for guild cleaning",
+      "message": "Sunucu Kanalı Temizleniyor..."
+   },
+   "serverChannelName": {
+      "description": "Fallback name for server channels",
+      "message": "Sunucu Kanalı"
+   },
+   "modalServerSuccess": {
+      "description": "Success message for server channel cleaning",
+      "message": "Kanal temizliği başarıyla tamamlandı!"
+   },
+   "panelLegalDisclaimer": {
+      "description": "Legal disclaimer for Chrome Web Store compliance",
+      "message": "Yasal Uyarı: Bu araç bağımsız bir yardımcı yazılımdır ve Discord Inc. ile resmi bir bağımsız ortaklığı, yetkilendirmesi veya sponsorluk ilişkisi bulunmamaktadır. Tüm sorumluluk kullanıcıya aittir."
+   },
+   "stepSearchingToken": {
+      "description": "Status text searching token",
+      "message": "Token aranıyor..."
+   },
+   "stepVerifyingToken": {
+      "description": "Status text verifying token",
+      "message": "Kimlik doğrulanıyor..."
+   },
+   "stepListingChats": {
+      "description": "Status text listing chats",
+      "message": "Konuşmalar listeleniyor..."
+   },
+   "stepSettingUpAI": {
+      "description": "Status text setting up AI",
+      "message": "AI Asistanı kuruluyor..."
+   },
+   "stepKaptanReady": {
+      "description": "Status text captain ready",
+      "message": "Kaptan hazır!"
+   },
+   "stepLoadingProfile": {
+      "description": "Status text loading profile",
+      "message": "Profil yükleniyor..."
+   },
+   "calculating": {
+      "description": "Calculating text",
+      "message": "Hesaplanıyor..."
+   },
+   "hourShort": {
+      "description": "Hour short unit",
+      "message": "sa"
+   },
+   "minuteShort": {
+      "description": "Minute short unit",
+      "message": "dk"
+   },
+   "secondShort": {
+      "description": "Second short unit",
+      "message": "sn"
+   },
+   "progressRemaining": {
+      "description": "Remaining label",
+      "message": "Kalan"
+   },
+   "terminalInitialized": {
+      "description": "Terminal boot line",
+      "message": "Kaptan Terminal Başlatıldı. Mesaj taramaları bekleniyor..."
+   },
+   "terminalScanning": {
+      "description": "Terminal scan status",
+      "message": "Kanal temizliği taranıyor: $NAME$",
+      "placeholders": {
+         "NAME": {
+            "content": "$1",
+            "example": "Kaptan"
+         }
+      }
+   },
+   "terminalBatchReceived": {
+      "description": "Terminal batch messages log",
+      "message": "Mesaj paketi alındı: $COUNT$ mesaj",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "terminalMatchesFound": {
+      "description": "Terminal messages matches filtered log",
+      "message": "Silinecek filtreye uygun $COUNT$ mesaj bulundu.",
+      "placeholders": {
+         "COUNT": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "terminalDeleted": {
+      "description": "Terminal deletion success log",
+      "message": "[OK] Silindi: \"$CONTENT$\"",
+      "placeholders": {
+         "CONTENT": {
+            "content": "$1",
+            "example": "Merhaba"
+         }
+      }
+   },
+   "terminalFailed": {
+      "description": "Terminal deletion failed log",
+      "message": "[HATA] Silinemedi: $MSGID$",
+      "placeholders": {
+         "MSGID": {
+            "content": "$1",
+            "example": "12345"
+         }
+      }
+   },
+   "notificationSuccess": {
+      "description": "Push notification body success",
+      "message": "Temizlik işlemi başarıyla tamamlandı!"
+   },
+   "notificationStopped": {
+      "description": "Push notification body stopped",
+      "message": "Temizlik işlemi durduruldu."
+   },
+   "selectAtLeastOneDM": {
+      "description": "Alert when no DM selected",
+      "message": "Lütfen temizlemek istediğiniz en az bir DM kutusunu seçin."
+   },
+   "groupDM": {
+      "description": "Group DM label fallback",
+      "message": "Grup DM"
+   },
+   "modalMultiDMSuccess": {
+      "description": "Success message when multiple DMs cleared",
+      "message": "Seçilen tüm DM kutuları başarıyla temizlendi!"
+   },
+   "modalConfirmClearAllMessages": {
+      "description": "Confirmation when deleting all messages from DM",
+      "message": "Bu DM kutusundaki tüm mesajlarınızı silmek istediğinize emin misiniz? (Geri alınamaz!)"
+   },
+   "advSettingsTitle": {
+      "description": "Advanced Options Accordion title",
+      "message": "Gelişmiş Ayarlar & Filtreler"
+   },
+   "advWhitelistLabel": {
+      "description": "Whitelist Safe Words Label",
+      "message": "Beyaz Liste Kelimeleri (virgülle ayırın):"
+   },
+   "advWhitelistPlaceholder": {
+      "description": "Whitelist Words Placeholder",
+      "message": "şifre, hesap, iban, tc, gizli..."
+   },
+   "advKeepPinnedLabel": {
+      "description": "Protect Pinned Messages Label",
+      "message": "Sabitlenmiş (Pinned) Mesajları Koru"
+   },
+   "advDateStartLabel": {
+      "description": "Start Date Label",
+      "message": "Başlangıç Tarihi (Bu tarihten eskisine gitmez):"
+   },
+   "advDateEndLabel": {
+      "description": "End Date Label",
+      "message": "Bitiş Tarihi (Bu tarihten yenisini silmez):"
+   },
+   "advMsgTypeLabel": {
+      "description": "Message Type Filter Label",
+      "message": "Filtrelenecek Mesaj Tipi:"
+   },
+   "advMsgTypeAll": {
+      "description": "All message types option",
+      "message": "Tüm Mesaj Tipleri"
+   },
+   "advMsgTypeReplies": {
+      "description": "Only replies option",
+      "message": "Sadece Yanıtlar (Replies)"
+   },
+   "advMsgTypeGifs": {
+      "description": "Only gifs option",
+      "message": "Sadece GIF'ler"
+   },
+   "advMsgTypeAttachments": {
+      "description": "Only attachments option",
+      "message": "Sadece Dosyalar / Medyalar"
+   },
+   "advBackupLabel": {
+      "description": "Backup Messages Before Deleting Label",
+      "message": "Sohbeti Silmeden Önce TXT Olarak Yedekle"
+   },
+   "advGhostModeLabel": {
+      "description": "Ghost Mode Dynamic Delay Label",
+      "message": "Hayalet Modu (İnsan Taklidi Gecikme 1.2s - 2.5s)"
+   },
+   "advDryRunLabel": {
+      "description": "Test Mode Dry Run Label",
+      "message": "Test Modu (Dry Run - Gerçekten Silme)"
+   },
+   "lifetimeStatsDeleted": {
+      "description": "Lifetime statistics total deleted messages",
+      "message": "Ömür Boyu Silinen"
+   },
+   "lifetimeStatsCleaned": {
+      "description": "Lifetime statistics space cleaned",
+      "message": "Temizlenen Alan"
+   },
+   "progressPause": {
+      "description": "Pause progress label",
+      "message": "Duraklat"
+   },
+   "progressResume": {
+      "description": "Resume progress label",
+      "message": "Devam Et"
+   },
+   "terminalPaused": {
+      "description": "Terminal logs paused status",
+      "message": "Kaptan Terminal Duraklatıldı."
+   },
+   "terminalResumed": {
+      "description": "Terminal logs resumed status",
+      "message": "Kaptan Terminal Devam Ettiriliyor..."
+   },
+   "terminalDryRunStarted": {
+      "description": "Terminal logs dry run start line",
+      "message": "TEST MODU: Simülasyon başlatıldı. Hiçbir mesaj silinmeyecektir."
+   },
+   "terminalDryRunSuccess": {
+      "description": "Terminal logs simulated deletion log",
+      "message": "[TEST-OK] Simüle Silindi: \"$CONTENT$\"",
+      "placeholders": {
+         "CONTENT": {
+            "content": "$1",
+            "example": "Selam"
+         }
+      }
+   },
+   "backupDownloadSuccess": {
+      "description": "Message backup completed alert",
+      "message": "Silme öncesi sohbet yedeği başarıyla bilgisayarınıza indirildi."
+   },
+   "promoBadgeText": {
+      "description": "Link text for itemsatis store badge",
+      "message": "Kaptan Shop (İtemSatış)"
+   },
+   "buyMeACoffeeText": {
+      "description": "Buy me a coffee button label",
+      "message": "Kahve Ismarla"
+   },
+   "feedbackTitle": {
+      "description": "Feedback section title",
+      "message": "Geri Bildirim / Hata Bildir"
+   },
+   "feedbackPlaceholder": {
+      "description": "Feedback text input placeholder",
+      "message": "Öneri, hata veya mesajınızı yazın..."
+   },
+   "feedbackSendBtn": {
+      "description": "Feedback send button label",
+      "message": "Geri Bildirim Gönder"
+   },
+   "feedbackEmptyErr": {
+      "description": "Feedback empty message error",
+      "message": "Lütfen göndermeden önce bir mesaj yazın."
+   },
+   "feedbackSuccess": {
+      "description": "Feedback success alert",
+      "message": "Geri bildiriminiz başarıyla gönderildi! Teşekkür ederiz."
+   },
+   "feedbackSpamErr": {
+      "description": "Feedback cooldown spam error",
+      "message": "Çok hızlı gönderiyorsunuz! Lütfen 60 saniye bekleyin."
+   },
+   "filterImages": {
+      "description": "Filter images checkbox",
+      "message": "Resimler"
+   },
+   "filterVideos": {
+      "description": "Filter videos checkbox",
+      "message": "Videolar"
+   },
+   "filterGifs": {
+      "description": "Filter gifs checkbox",
+      "message": "GIF'ler"
+   },
+   "filterAudio": {
+      "description": "Filter audio checkbox",
+      "message": "Ses Dosyaları"
+   },
+   "filterZipRar": {
+      "description": "Filter zip/rar checkbox",
+      "message": "Zip / Rar"
+   },
+   "filterLinks": {
+      "description": "Filter links checkbox",
+      "message": "Bağlantılar (Link)"
+   },
+   "filterEmbeds": {
+      "description": "Filter embeds checkbox",
+      "message": "Embed'ler"
+   },
+   "filterLengthShort": {
+      "description": "Filter short message",
+      "message": "10 Karakterden Kısa"
+   },
+   "filterLengthLong": {
+      "description": "Filter long message",
+      "message": "100 Karakterden Uzun"
+   },
+   "filterLengthEmpty": {
+      "description": "Filter empty message",
+      "message": "Boş Mesajlar"
+   },
+   "filterEmoji": {
+      "description": "Filter emojis message",
+      "message": "Sadece Emojiler"
+   },
+   "filterMention": {
+      "description": "Filter mentions message",
+      "message": "Sadece Etiketler (@everyone/@here/kullanıcı)"
+   },
+   "filterSpam": {
+      "description": "Filter spam message",
+      "message": "Spam / Tekrarlanan Mesajlar"
+   },
+   "achievementUnlocked": {
+      "description": "Achievement unlocked title",
+      "message": "Başarım Kazandın!"
+   },
+   "achievementFirstCleanup": {
+      "description": "First Cleanup Achievement",
+      "message": "İlk Temizlik"
+   },
+   "achievementMassCleaner": {
+      "description": "Mass Cleaner Achievement",
+      "message": "Mass Cleaner"
+   },
+   "achievementDigitalGhost": {
+      "description": "Digital Ghost Achievement",
+      "message": "Digital Ghost"
+   },
+   "achievementInvestigator": {
+      "description": "Investigator Achievement",
+      "message": "Dedektif"
+   },
+   "achievementNightOwl": {
+      "description": "Night Owl Achievement",
+      "message": "Gece Kuşu"
+   },
+   "achievementSpeedDemon": {
+      "description": "Speed Demon Achievement",
+      "message": "Hız Delisi"
+   },
+   "achievementBackupMaster": {
+      "description": "Backup Master Achievement",
+      "message": "Yedekleme Ustası"
+   },
+   "achievementMultiSweep": {
+      "description": "Multi Sweep Achievement",
+      "message": "Çoklu Süpürücü"
+   },
+   "achievementGhostProtocol": {
+      "description": "Ghost Protocol Achievement",
+      "message": "Hayalet Protokolü"
+   },
+   "achievementFilterMaster": {
+      "description": "Filter Master Achievement",
+      "message": "Filtre Uzmanı"
+   },
+   "achievementPanicButton": {
+      "description": "Panic Button Achievement",
+      "message": "Panik Butonu"
+   },
+   "achievementCompletionist": {
+      "description": "Completionist Achievement",
+      "message": "Koleksiyoncu"
+   },
+   "achievementNeo": {
+      "description": "Neo Matrix Achievement",
+      "message": "Seçilmiş Kişi (Neo)"
+   },
+   "achievementShopSupporter": {
+      "description": "Shop Supporter Achievement",
+      "message": "Kaptan Destekçisi"
+   },
+   "achievementDevFriend": {
+      "description": "Developer Friend Achievement",
+      "message": "Geliştirici Dostu"
+   },
+   "achievementSpeedrunner": {
+      "description": "Speedrunner Achievement",
+      "message": "Işık Hızı"
+   },
+   "achievementPerfectVoyage": {
+      "description": "Perfect Voyage Achievement",
+      "message": "Kusursuz Seyir"
+   },
+   "achievementArchivist": {
+      "description": "Archivist Achievement",
+      "message": "Büyük Arşivci"
+   },
+   "duplicateFinderTitle": {
+      "description": "Duplicate Finder title",
+      "message": "Kopyalanmış Dosya Bulucu"
+   },
+   "deleteDuplicatesBtn": {
+      "description": "Delete Duplicates button",
+      "message": "Kopyaları Sil"
+   },
+   "activityReportTitle": {
+      "description": "Activity Report title",
+      "message": "Discord Aktivite Raporu"
+   },
+   "exportMarkdownBtn": {
+      "description": "Export Markdown button",
+      "message": "Markdown Olarak Yedekle"
+   },
+   "exportJsonBtn": {
+      "description": "Export JSON button",
+      "message": "JSON Olarak Yedekle"
+   },
+   "liveRequestMonitor": {
+      "description": "Live Request Monitor label",
+      "message": "Canlı API Konsolu"
+   },
+   "performanceMeter": {
+      "description": "Performance Meter label",
+      "message": "Performans Göstergeleri"
+   },
+   "konamiEasterEgg": {
+      "description": "Konami easter egg activated",
+      "message": "MATRIX SÜRPRİZİ AKTİF EDİLDİ!"
+   }
+}

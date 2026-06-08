@@ -1,0 +1,156 @@
+{
+   "modalAuthError": {
+      "description": "Mensaje de error de autenticación",
+      "message": "Error al autenticar. Por favor recarga la página."
+   },
+   "modalCancel": {
+      "description": "Botón cancelar",
+      "message": "Cancelar"
+   },
+   "modalChannelNotDetected": {
+      "description": "Título canal no detectado",
+      "message": "Canal no detectado"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "Mensaje canal no detectado",
+      "message": "No se pudo detectar el ID del canal."
+   },
+   "modalConfirm": {
+      "description": "Botón confirmar",
+      "message": "Confirmar"
+   },
+   "modalConfirmDeletion": {
+      "description": "Título confirmar eliminación",
+      "message": "Confirmar eliminación"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "Mensaje confirmar eliminación",
+      "message": "¿Eliminar hasta $LIMIT$ de tus mensajes?\n\nLos mensajes eliminados NO se pueden recuperar.\n\nEste proceso respeta los límites de velocidad de la API de Discord.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "Título eliminación completada",
+      "message": "Eliminación completada"
+   },
+   "modalDeletionInProgress": {
+      "description": "Título eliminación en progreso",
+      "message": "Eliminación en progreso"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "Mensaje eliminación en progreso",
+      "message": "¿Estás seguro de que quieres cerrar? El proceso de eliminación se detendrá."
+   },
+   "modalDeletionStopped": {
+      "description": "Mensaje eliminación detenida",
+      "message": "Eliminación detenida por el usuario."
+   },
+   "modalDeletionSuccess": {
+      "description": "Mensaje eliminación exitosa",
+      "message": "Todos los mensajes se han eliminado correctamente."
+   },
+   "modalError": {
+      "description": "Título error",
+      "message": "Error"
+   },
+   "modalErrorMessage": {
+      "description": "Mensaje de error",
+      "message": "Ocurrió un error durante la eliminación. Por favor revisa la consola para más detalles."
+   },
+   "modalNoMessagesFound": {
+      "description": "Título no se encontraron mensajes",
+      "message": "No se encontraron mensajes"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "Mensaje no se encontraron mensajes",
+      "message": "No se encontraron mensajes para eliminar."
+   },
+   "modalNotOnDMPage": {
+      "description": "Título no estás en página DM",
+      "message": "No estás en una página de DM"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "Mensaje no estás en página DM",
+      "message": "Por favor navega a una conversación de DM primero."
+   },
+   "modalOk": {
+      "description": "Botón OK",
+      "message": "OK"
+   },
+   "panelClose": {
+      "description": "Botón cerrar",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "Texto de derechos de autor",
+      "message": "v1.0.0 © 2025 Kyo. Todos los derechos reservados."
+   },
+   "panelFooter": {
+      "description": "Enlace del pie de página",
+      "message": "kyo.services"
+   },
+   "panelInfo": {
+      "description": "Mensaje informativo",
+      "message": "Los mensajes eliminados no se pueden recuperar. Solo se eliminarán tus mensajes."
+   },
+   "panelMessageLimit": {
+      "description": "Etiqueta de límite de mensajes",
+      "message": "Límite de mensajes"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "Placeholder del campo de límite de mensajes",
+      "message": "Número de mensajes a eliminar"
+   },
+   "panelStartDeleting": {
+      "description": "Botón comenzar eliminación",
+      "message": "Comenzar eliminación"
+   },
+   "panelTitle": {
+      "description": "Título del panel",
+      "message": "Limpiador de DM"
+   },
+   "progressDeleted": {
+      "description": "Etiqueta de conteo eliminados",
+      "message": "Eliminados"
+   },
+   "progressFailed": {
+      "description": "Etiqueta de conteo fallidos",
+      "message": "Fallidos"
+   },
+   "progressStop": {
+      "description": "Botón detener",
+      "message": "Detener"
+   },
+   "progressTitle": {
+      "description": "Título de la barra de progreso",
+      "message": "Kyo DM Cleaner limpiando tus mensajes de dm..."
+   },
+   "progressTotal": {
+      "description": "Etiqueta de conteo total",
+      "message": "Total"
+   },
+   "statusAuthError": {
+      "description": "Estado de error de autenticación",
+      "message": "Error al autenticar. Por favor recarga la página."
+   },
+   "statusAuthenticating": {
+      "description": "Estado de autenticación",
+      "message": "Autenticando..."
+   },
+   "statusInitializing": {
+      "description": "Estado inicializando",
+      "message": "Inicializando... Por favor espera."
+   },
+   "statusNotOnDMPage": {
+      "description": "Estado no está en página DM",
+      "message": "Por favor navega a una conversación de DM."
+   },
+   "statusReady": {
+      "description": "Estado listo",
+      "message": "Listo para eliminar mensajes"
+   }
+}

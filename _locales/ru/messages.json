@@ -1,0 +1,156 @@
+{
+   "modalAuthError": {
+      "description": "Сообщение об ошибке аутентификации",
+      "message": "Ошибка аутентификации. Пожалуйста, обновите страницу."
+   },
+   "modalCancel": {
+      "description": "Кнопка отмена",
+      "message": "Отмена"
+   },
+   "modalChannelNotDetected": {
+      "description": "Заголовок канал не обнаружен",
+      "message": "Канал не обнаружен"
+   },
+   "modalChannelNotDetectedMessage": {
+      "description": "Сообщение канал не обнаружен",
+      "message": "Не удалось определить ID канала."
+   },
+   "modalConfirm": {
+      "description": "Кнопка подтвердить",
+      "message": "Подтвердить"
+   },
+   "modalConfirmDeletion": {
+      "description": "Заголовок подтвердить удаление",
+      "message": "Подтвердить удаление"
+   },
+   "modalConfirmDeletionMessage": {
+      "description": "Сообщение подтвердить удаление",
+      "message": "Удалить до $LIMIT$ ваших сообщений?\n\nУдаленные сообщения НЕВОЗМОЖНО восстановить.\n\nЭтот процесс соблюдает ограничения скорости API Discord.",
+      "placeholders": {
+         "LIMIT": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "modalDeletionComplete": {
+      "description": "Заголовок удаление завершено",
+      "message": "Удаление завершено"
+   },
+   "modalDeletionInProgress": {
+      "description": "Заголовок удаление в процессе",
+      "message": "Удаление в процессе"
+   },
+   "modalDeletionInProgressMessage": {
+      "description": "Сообщение удаление в процессе",
+      "message": "Вы уверены, что хотите закрыть? Процесс удаления будет остановлен."
+   },
+   "modalDeletionStopped": {
+      "description": "Сообщение удаление остановлено",
+      "message": "Удаление остановлено пользователем."
+   },
+   "modalDeletionSuccess": {
+      "description": "Сообщение удаление успешно",
+      "message": "Все сообщения успешно удалены."
+   },
+   "modalError": {
+      "description": "Заголовок ошибка",
+      "message": "Ошибка"
+   },
+   "modalErrorMessage": {
+      "description": "Сообщение об ошибке",
+      "message": "Произошла ошибка при удалении. Пожалуйста, проверьте консоль для подробностей."
+   },
+   "modalNoMessagesFound": {
+      "description": "Заголовок сообщения не найдены",
+      "message": "Сообщения не найдены"
+   },
+   "modalNoMessagesFoundMessage": {
+      "description": "Сообщение сообщения не найдены",
+      "message": "Не найдено сообщений для удаления."
+   },
+   "modalNotOnDMPage": {
+      "description": "Заголовок не на странице DM",
+      "message": "Не на странице личной переписки"
+   },
+   "modalNotOnDMPageMessage": {
+      "description": "Сообщение не на странице DM",
+      "message": "Пожалуйста, сначала перейдите в личную переписку."
+   },
+   "modalOk": {
+      "description": "Кнопка OK",
+      "message": "OK"
+   },
+   "panelClose": {
+      "description": "Кнопка закрытия",
+      "message": "×"
+   },
+   "panelCopyright": {
+      "description": "Текст авторских прав",
+      "message": "v1.0.0 © 2025 Kyo. Все права защищены."
+   },
+   "panelFooter": {
+      "description": "Ссылка в футере",
+      "message": "kyo.services"
+   },
+   "panelInfo": {
+      "description": "Информационное сообщение",
+      "message": "Удаленные сообщения нельзя восстановить. Будут удалены только ваши сообщения."
+   },
+   "panelMessageLimit": {
+      "description": "Метка лимита сообщений",
+      "message": "Лимит сообщений"
+   },
+   "panelMessageLimitPlaceholder": {
+      "description": "Placeholder поля лимита сообщений",
+      "message": "Количество сообщений для удаления"
+   },
+   "panelStartDeleting": {
+      "description": "Кнопка начать удаление",
+      "message": "Начать удаление"
+   },
+   "panelTitle": {
+      "description": "Заголовок панели",
+      "message": "Очиститель DM"
+   },
+   "progressDeleted": {
+      "description": "Метка количества удаленных",
+      "message": "Удалено"
+   },
+   "progressFailed": {
+      "description": "Метка количества ошибок",
+      "message": "Ошибок"
+   },
+   "progressStop": {
+      "description": "Кнопка остановить",
+      "message": "Остановить"
+   },
+   "progressTitle": {
+      "description": "Заголовок панели прогресса",
+      "message": "Kyo DM Cleaner очищает ваши личные сообщения..."
+   },
+   "progressTotal": {
+      "description": "Метка общего количества",
+      "message": "Всего"
+   },
+   "statusAuthError": {
+      "description": "Статус ошибки аутентификации",
+      "message": "Ошибка аутентификации. Пожалуйста, обновите страницу."
+   },
+   "statusAuthenticating": {
+      "description": "Статус аутентификации",
+      "message": "Аутентификация..."
+   },
+   "statusInitializing": {
+      "description": "Статус инициализации",
+      "message": "Инициализация... Пожалуйста, подождите."
+   },
+   "statusNotOnDMPage": {
+      "description": "Статус не на странице DM",
+      "message": "Пожалуйста, перейдите в личную переписку."
+   },
+   "statusReady": {
+      "description": "Статус готов",
+      "message": "Готов к удалению сообщений"
+   }
+}
