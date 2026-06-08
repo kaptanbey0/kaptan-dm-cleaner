@@ -1,15 +1,21 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=250&section=header&text=Kaptan%20DM%20Cleaner&fontSize=60&fontAlignY=38&animation=twinkling&fontColor=ffffff&desc=V5.1.0%20ULTIMATE%20EDITION&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=5865F2&height=250&section=header&text=Kaptan%20DM%20Cleaner&fontSize=60&fontAlignY=38&animation=twinkling&fontColor=ffffff" />
 
   <a href="https://github.com/kaptanbey0">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=600&lines=Erasing+your+digital+footprints...;100%25+Local.+100%25+Secure.;Ghost+Mode+Activated+🥷;Powered+by+Kaptanbey01+👑" alt="Typing SVG" />
   </a>
 
-  <br>
+  <br><br>
 
   <img src="https://img.shields.io/badge/Architecture-Manifest_V3-success?style=for-the-badge&logo=googlechrome">
   <img src="https://img.shields.io/badge/Privacy-100%25_Strict_Local-red?style=for-the-badge&logo=adguard">
   <img src="https://img.shields.io/badge/Developer-Kaptanbey01-black?style=for-the-badge&logo=discord">
+
+  <br><br>
+
+  <a href="https://github.com/kaptanbey0">
+    <img src="https://skillicons.dev/icons?i=js,nodejs,html,css,git,github&theme=dark" alt="Tech Stack" />
+  </a>
 
   <br><br>
 
@@ -20,8 +26,6 @@
   <h3>🌍 DİL SEÇİMİ / CHOOSE LANGUAGE 🌍</h3>
   <a href="#tr-version"><img src="https://img.shields.io/badge/🇹🇷_TÜRKÇE_SÜRÜM_İÇİN_TIKLA-E4252B?style=for-the-badge&logo=googletranslate&logoColor=white"></a>
   <a href="#en-version"><img src="https://img.shields.io/badge/🇬🇧_CLICK_FOR_ENGLISH-012169?style=for-the-badge&logo=googletranslate&logoColor=white"></a>
-  
-  <br><br>
 </div>
 
 ---
@@ -29,113 +33,127 @@
 <a name="tr-version"></a>
 # 🇹🇷 TÜRKÇE SÜRÜM (TR)
 
-<div align="center">
-  <h2>⚓ Kaptan Discord DM Cleaner v5.1.0</h2>
-  <p><b>✨ Discord mesaj yönetimini sıradan bir işlem olmaktan çıkarıp profesyonel bir sanata dönüştüren nihai eklenti. ✨</b></p>
-</div>
+**Kaptan Discord DM Cleaner**, Discord üzerindeki kendi DM geçmişinizi, sunucu kanalı mesajlarınızı ve hatta gizli/kapatılmış sohbetlerinizi güvenli, hızlı ve gelişmiş filtrelerle temizlemenizi sağlayan **premium temalı** bir eklentidir.
 
-## 🌐 Desteklenen Tarayıcılar
+## 🚀 Devasa Özellikler
+* 🧠 **Gelişmiş Filtreler & AI Desteği:** Resim, video, GIF, link, dosya tipi, karakter uzunluğu filtreleri ve doğal dil işleme destekli AI filtreleme asistanı.
+* 🕵️ **Gizli DM Bulucu:** Sohbet listesinden gizlenmiş veya çoktan kapatılmış DM kutularını DOM derinliklerinden bulma, geri getirme ve temizleme.
+* 🔥 **Toplu DM Temizleme (Multi-DM):** Birden fazla DM kutusunu aynı anda sıraya koyup temizleyebilme. Duraklatma, devam etme ve çökme anında kaldığı yerden başlama (oturum kaydetme).
+* 🥷 **Hayalet Modu (Ghost Mode):** Discord anti-spam botlarına yakalanmamak için insan tıklamasını taklit eden dinamik gecikme süreleri (1.2s - 2.5s jitter).
+* 📊 **Yerel İstatistik ve Raporlama:** Silinmeden önce sohbet geçmişini yedekleme, kelime bulutu çıkarma ve HTML/Markdown formatında şık analiz raporları indirme.
+* 💊 **Matrix Paskalya Yumurtası:** `↑ ↑ ↓ ↓ ← → ← → B A` (Konami kodu) girerek aktifleştirilebilen cyberpunk Matrix dijital yağmur efekti.
+
+## 🌐 Desteklenen Tarayıcılar (PC & Mobil)
 
 | Tarayıcı | Platform | Destek Durumu |
 | :--- | :---: | :--- |
 | **Google Chrome** | PC | 🟢 Tam Uyumlu |
-| **Brave Browser** | PC | 🟢 Tam Uyumlu |
-| **Microsoft Edge** | PC | 🟢 Tam Uyumlu |
-| **Opera / Opera GX** | PC | 🟢 Tam Uyumlu |
+| **Brave / Edge / Opera** | PC | 🟢 Tam Uyumlu |
 | **Quetta Browser** | Android (Mobil) | 🟢 Tam Uyumlu |
+| **Kiwi Browser** | Android (Mobil) | 🔴 Bozuk / Önerilmez *(Eklenti motoru sorunlu)* |
 | **Quetta Browser** | iOS (Apple) | 🟡 Test Edilmedi *(Çalışma ihtimali yüksek)* |
 
----
+## 💻 Kurulum Rehberi (Masaüstü & Mobil)
 
-## 💻 Bilgisayar (PC) İçin Kurulum Rehberi
-
-1. Sağ taraftaki **Releases** bölümünden (veya doğrudan [buradan](https://github.com/kaptanbey0/kaptan-dm-cleaner/releases)) eklentinin paketlenmiş **`.crx`** dosyasını bilgisayarınıza indirin.
-2. Tarayıcınızda adres çubuğuna şunu yazın: `chrome://extensions` *(Edge için `edge://extensions`)*
+### 🖥️ PC Kurulumu (Chrome, Edge, Brave, Opera)
+1. Sağ taraftaki **Releases** bölümünden (veya doğrudan [Buraya Tıklayarak](https://github.com/kaptanbey0/kaptan-dm-cleaner/releases)) en güncel **`.crx`** veya **`.zip`** dosyasını indirin.
+2. Tarayıcınızda şu adresi açın: `chrome://extensions/` *(Edge için `edge://extensions`)*
 3. Sağ üst köşeden **Geliştirici Modu (Developer Mode)** seçeneğini aktif edin.
-4. İndirdiğiniz **`.crx`** dosyasını fareyle tutup eklentiler sayfasının tam ortasına **sürükleyip bırakın**.
-5. Gelen uyarıya "Ekle" deyin. Eklenti kuruldu, keyfini çıkarın! 💥
+4. **Nasıl Yüklenir?**
+   * Eğer **`.crx`** indirdiyseniz: Dosyayı farenizle tutup eklentiler sayfasının tam ortasına **sürükleyip bırakın**.
+   * Eğer **`.zip`** indirdiyseniz: Dosyayı bir klasöre çıkartın, sol üstteki **Paketlenmemiş öğe yükle (Load unpacked)** butonuna basıp o klasörü seçin.
+5. Discord'u açın, sağ üstteki yapboz simgesinden (🧩) Kaptan'ı sabitleyip şova başlayın!
 
----
+### 📱 Mobil Kurulum (Android)
+> ⚠️ **DİKKAT:** Kiwi Browser'ın güncel sürümünde eklenti motoru bozuktur. Mobil kurulum için kesinlikle **Quetta Browser** kullanmalısınız!
 
-## 📱 Telefon (Android & iOS) İçin Kurulum Rehberi
-
-*Telefondan kurulum için **[Quetta Browser](https://www.quetta.net/)** kullanılmalıdır (Apple iOS sürümü mevcuttur ancak henüz tarafımızca test edilmemiştir).*
-
-1. Cihazınıza **[Quetta Browser](https://www.quetta.net/)**'ı indirin ve kurun.
-2. Bu GitHub sayfasından en güncel **`.zip`** veya **`.crx`** dosyasını telefonunuza indirin. <br>⚠️ **DİKKAT:** İndirdiğiniz bu dosyayı kesinlikle klasöre **çıkartmayın/ayıklamayın!** Olduğu gibi kalsın.
-3. Quetta tarayıcısını açın.
-4. Menüden **3 Nokta (⋮)** > **Yapboz Simgesi 🧩 (Eklentiler)** > **Uzantıları Yönet** (Manage Extensions) yolunu izleyin.
-5. Sayfadaki **Geliştirici Seçenekleri**'ni (Developer Options) aktif hale getirin.
-6. **"+ From .zip / .crx"** yazan butona tıklayın.
-7. Telefonunuza indirdiğiniz o paketi seçin. Eklenti saniyeler içinde tarayıcınıza kurulacak! 🥷
+1. Cihazınıza Google Play'den **[Quetta Browser (Tıkla İndir)](https://play.google.com/store/apps/details?id=com.quetta.browser)** uygulamasını kurun.
+2. Bu GitHub sayfasından en güncel **`.crx`** veya **`.zip`** dosyasını telefonunuza indirin. <br>*(ÖNEMLİ: İndirdiğiniz bu ZIP dosyasını sakın telefonunuzda ayıklamayın/çıkartmayın, olduğu gibi kalsın!)*
+3. Quetta tarayıcısını açın, sağ alttaki menüden **3 Nokta (⋮)** > **🧩 Eklentiler (Extensions)** > **Uzantıları Yönet** yolunu izleyin.
+4. Sayfadaki **Geliştirici Seçenekleri (Developer Options)** ayarını açın.
+5. **"+ From .zip / .crx"** butonuna dokunun ve telefonunuza indirdiğiniz o paketi seçin.
+6. Discord web sürümüne (Masaüstü sitesi iste diyerek) giriş yapın ve temizliğe başlayın!
 
 ---
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-  <br><br><br>
 </div>
+<br>
 
 <a name="en-version"></a>
 # 🇬🇧 ENGLISH VERSION (EN)
 
-<div align="center">
-  <h2>⚓ Kaptan Discord DM Cleaner v5.1.0</h2>
-  <p><b>✨ The ultimate extension designed to make Discord message management faster, cleaner, and more professional. ✨</b></p>
-</div>
+**Kaptan Discord DM Cleaner** is a premium-themed extension that allows you to clean your direct message history, server channel messages, and even hidden/closed DM conversations securely, fast, and with advanced filters.
 
-## 🌐 Supported Browsers
+## 🚀 Massive Features
+* 🧠 **Advanced Filters & AI Support:** Filter by images, videos, GIFs, links, document types, character length, or use the natural language AI filtering assistant.
+* 🕵️ **Hidden DM Finder:** Scan deep within the DOM to recover and manage closed or hidden DM channels directly from your dashboard.
+* 🔥 **Bulk DM Deletion (Multi-DM):** Clear multiple conversations sequentially. Features pause/resume and session recovery so you can pick up exactly where you left off.
+* 🥷 **Stealth/Ghost Mode:** Human-like click simulation with randomized jitter delays (1.2s - 2.5s) to bypass Discord's anti-spam bots and protect your account.
+* 📊 **Analytics & Reporting:** Backup chat history before deletion, generate word clouds, and download polished HTML/Markdown activity reports.
+* 💊 **Matrix Easter Egg:** Trigger a cyberpunk Matrix digital rain effect by typing the Konami code (`↑ ↑ ↓ ↓ ← → ← → B A`).
+
+## 🌐 Supported Browsers (PC & Mobile)
 
 | Browser | Platform | Support Status |
 | :--- | :---: | :--- |
 | **Google Chrome** | PC | 🟢 Fully Supported |
-| **Brave Browser** | PC | 🟢 Fully Supported |
-| **Microsoft Edge** | PC | 🟢 Fully Supported |
-| **Opera / Opera GX** | PC | 🟢 Fully Supported |
+| **Brave / Edge / Opera** | PC | 🟢 Fully Supported |
 | **Quetta Browser** | Android (Mobile)| 🟢 Fully Supported |
+| **Kiwi Browser** | Android (Mobile)| 🔴 Broken / Not Recommended *(Engine issues)* |
 | **Quetta Browser** | iOS (Apple) | 🟡 Untested *(High chance of working)* |
 
----
+## 💻 Installation Guide (Desktop & Mobile)
 
-## 💻 PC Installation Guide
+### 🖥️ PC Installation (Chrome, Edge, Brave, Opera)
+1. Download the latest **`.crx`** or **`.zip`** package from the **Releases** section on the right (or [Click Here](https://github.com/kaptanbey0/kaptan-dm-cleaner/releases)).
+2. Open your browser and navigate to: `chrome://extensions/` *(or `edge://extensions`)*
+3. Enable **Developer Mode** in the top right corner.
+4. **How to Install?**
+   * If using **`.crx`**: Simply **drag and drop** the file directly into the middle of the extensions page.
+   * If using **`.zip`**: Extract it to a folder, click the **Load unpacked** button at the top left, and select that folder.
+5. Open Discord, pin Kaptan from the puzzle icon (🧩) at the top right, and enjoy!
 
-1. Download the packaged **`.crx`** file from the **Releases** section on the right (or [click here](https://github.com/kaptanbey0/kaptan-dm-cleaner/releases)).
-2. Open this address in your browser: `chrome://extensions` *(or `edge://extensions` for Edge)*
-3. Enable **Developer Mode** located at the top right corner.
-4. **Drag and drop** the downloaded **`.crx`** file directly into the middle of the extensions page.
-5. Click "Add extension" on the prompt. You are ready to go! 💥
+### 📱 Mobile Installation (Android)
+> ⚠️ **WARNING:** The extension engine in Kiwi Browser is currently broken. You MUST use **Quetta Browser** for mobile installation!
 
----
-
-## 📱 Mobile (Android & iOS) Installation Guide
-
-*For mobile installation, you must use **[Quetta Browser](https://www.quetta.net/)** (An Apple iOS version is available but currently untested by us).*
-
-1. Download and install **[Quetta Browser](https://www.quetta.net/)** on your device.
-2. Download the latest **`.zip`** or **`.crx`** file from this GitHub page to your phone. <br>⚠️ **IMPORTANT:** DO NOT extract/unzip this file! Keep it exactly as it is.
-3. Open Quetta Browser.
-4. Go to the menu: Tap the **3 Dots (⋮)** > **Puzzle Icon 🧩 (Extensions)** > **Manage Extensions**.
-5. Turn on **Developer Options**.
-6. Tap the **"+ From .zip / .crx"** button.
-7. Select the file you downloaded. The extension will be installed instantly! 🥷
+1. Download and install **[Quetta Browser (Click Here)](https://play.google.com/store/apps/details?id=com.quetta.browser)** from the Google Play Store.
+2. Download the latest **`.crx`** or **`.zip`** file from this GitHub page to your phone. <br>*(CRITICAL: Do NOT unzip or extract this file on your phone! Leave it exactly as downloaded.)*
+3. Open Quetta Browser, tap the bottom menu **3 Dots (⋮)** > **🧩 Extensions** > **Manage Extensions**.
+4. Toggle on **Developer Options**.
+5. Tap the **"+ From .zip / .crx"** button and select the file you just downloaded.
+6. Log into the Discord web version (Request Desktop Site) and start cleaning!
 
 ---
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-</div>
+  <br><br>
 
-<div align="center">
-  <h2>🌟 PROJEYE DESTEK OL / SUPPORT THE PROJECT 🌟</h2>
+  <h2>💬 İLETİŞİM & DESTEK / CONTACT & SUPPORT 💬</h2>
+  <p>Soru, öneri ve hata bildirimleri için bana Discord'dan ulaşabilirsiniz:</p>
+  <img src="https://img.shields.io/badge/Discord-kaptanbey01-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   
-  <a href="https://github.com/kaptanbey0/kaptan-dm-cleaner">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaptanbey0&repo=kaptan-dm-cleaner&theme=tokyonight&hide_border=true&icon_color=5865F2" alt="Repo Stats" />
+  <br><br>
+
+  <h2>🌟 PROJE İSTATİSTİKLERİ / PROJECT STATS 🌟</h2>
+  
+  <a href="https://github.com/kaptanbey0/kaptan-dm-cleaner/stargazers">
+    <img src="https://img.shields.io/github/stars/kaptanbey0/kaptan-dm-cleaner?style=for-the-badge&color=ffd700" alt="Stars">
   </a>
+  <a href="https://github.com/kaptanbey0/kaptan-dm-cleaner/network/members">
+    <img src="https://img.shields.io/github/forks/kaptanbey0/kaptan-dm-cleaner?style=for-the-badge&color=5865F2" alt="Forks">
+  </a>
+  <a href="https://github.com/kaptanbey0/kaptan-dm-cleaner/issues">
+    <img src="https://img.shields.io/github/issues/kaptanbey0/kaptan-dm-cleaner?style=for-the-badge&color=red" alt="Issues">
+  </a>
+  
   <br><br>
 
   <p><b>⚠️ Yasal Uyarı / Disclaimer:</b> Bu proje bağımsız bir geliştirici tarafından yapılmıştır ve Discord Inc. ile bağlantısı yoktur. / <i>This project is an independent utility and is not affiliated with Discord Inc.</i></p>
   
-  <img src="https://komarev.com/ghpvc/?username=kaptan-dm-cleaner-readme&label=PROFILE+VIEWS&color=00ff00&style=for-the-badge" alt="Görüntülenme Sayacı" />
+  <img src="https://komarev.com/ghpvc/?username=kaptan-dm-cleaner-readme&label=README+Görüntülenme&color=5865F2&style=for-the-badge" alt="Görüntülenme Sayacı" />
   <br><br>
   
   <h3>⭐ Eğer bu proje işinize yaradıysa YILDIZ (Star) vermeyi unutmayın! / Consider giving a Star! ⭐</h3>
